@@ -17,40 +17,40 @@ export const USER_CONFIG = {
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
   IS_SHOW_COLOR: true,
   
-  // 功能开关,打开：true，关闭：false
+ // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
-    weather：true，
+    weather: true,
     
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts:false,
+    holidaytts: true,
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA:true,
+    CIBA: true,
     // 每日一言
-    oneTalk:true,
+    oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords:true,
+    earthyLoveWords: false,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry：true，
+    poetry: false,
     
     /** 星座运势 */
-    horoscope:true,
+    horoscope: false,
     
     /** 生日消息和节日消息 */
-    birthdayMessage:true,
+    birthdayMessage: true,
   },
   
   /** 每日一言 */
   
   // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】；随机则填写 "小说"
+  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
   LITERARY_PREFERENCE: "",
   
   
