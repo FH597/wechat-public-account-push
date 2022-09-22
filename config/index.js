@@ -32,7 +32,7 @@ export const USER_CONFIG = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -41,7 +41,7 @@ export const USER_CONFIG = {
     poetry: false,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -50,7 +50,7 @@ export const USER_CONFIG = {
   /** 每日一言 */
   
   // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
+  // 可以填写【LITERARY_PREFERENCE】； 随机则填写 ""
   LITERARY_PREFERENCE: "",
   
   
@@ -79,10 +79,9 @@ export const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "小胡同学", "year": "1995", "date": "05-10"},
-        {"type": "节日", "name": "在一起的纪念日", "year": "2020", "date": "09-03"},
+        {"type": "节日", "name": "在一起的纪念日", "year": "2020", "date": "04-30"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "方海", "year": "2002", "date": "02-15"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -147,7 +146,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oDU3L5-aQ1OEBWSM08XhiymKcBdY",
+      id: "",
     },
     // 你可以不断按格式往下增加
     // ...
