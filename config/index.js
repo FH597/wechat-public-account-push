@@ -20,17 +20,17 @@ export const USER_CONFIG = {
   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
-    weather：true，
+    weather:true,
     
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts：true，
+    holidaytts:false,
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA：true，
+    CIBA:true,
     // 每日一言
-    oneTalk:false,
+    oneTalk:true,
     // 土味情话(彩虹屁)
     earthyLoveWords:true,
     // 朋友圈文案
