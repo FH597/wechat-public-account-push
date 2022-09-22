@@ -6,12 +6,12 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wxbb5c877974c1ae9b",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "7d280cbb9a904461d891cf377c2c4afa",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -66,9 +66,9 @@ export const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "",
       // 所在省份
-      province: "广东",
+      province: "贵州",
       // 所在城市
-      city: "肇庆",
+      city: "黔南",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -78,10 +78,10 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        {"type": "*生日", "name": "小胡同学", "year": "1995", "date": "05-10"},
+        {"type": "节日", "name": "在一起的纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+        {"type": "生日", "name": "方海", "year": "2002", "date": "02-15"},
         {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -139,7 +139,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "lpdFbWrntx_VBm1LhAevsmZ1YCgbiGao8Zc09HfcP8Q",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -147,7 +147,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oDU3L5-aQ1OEBWSM08XhiymKcBdY",
     },
     // 你可以不断按格式往下增加
     // ...
