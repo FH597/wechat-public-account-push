@@ -20,15 +20,15 @@ export const USER_CONFIG = {
   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
-    weather:true,
+    weather：true，
     
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts:true,
+    holidaytts：true，
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA:true,
+    CIBA：true，
     // 每日一言
     oneTalk:false,
     // 土味情话(彩虹屁)
@@ -38,7 +38,7 @@ export const USER_CONFIG = {
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry:false,
+    poetry：true，
     
     /** 星座运势 */
     horoscope:true,
@@ -50,7 +50,7 @@ export const USER_CONFIG = {
   /** 每日一言 */
   
   // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】；随机则填写 ""
+  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】；随机则填写 "小说"
   LITERARY_PREFERENCE: "",
   
   
@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oDU3L5-aQ1OEBWSM08XhiymKcBdY",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "hKPQcxzI-zX7GnDq3ozMjmayH2RjqFAD3XeagPLPWbM",
+      useTemplateId: "6dERz0zvql95R7LNaoIfve2mgTQBtHsM5X8JkB2MbuU",
       // 所在省份
       province: "贵州",
       // 所在城市
