@@ -32,13 +32,13 @@ export const USER_CONFIG = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
     
     /** 星座运势 */
     horoscope: false,
@@ -50,7 +50,7 @@ export const USER_CONFIG = {
   /** 每日一言 */
   
   // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
+  // 可以填写【随机】； 随机则填写 ""
   LITERARY_PREFERENCE: "",
   
   
