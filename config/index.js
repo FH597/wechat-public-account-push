@@ -50,7 +50,7 @@ export const USER_CONFIG = {
   /** 每日一言 */
   
   // 每日一言的内容类型
-  // 可以填写【LITERARY_PREFERENCE】； 随机则填写 ""
+  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
   LITERARY_PREFERENCE: "",
   
   
@@ -68,7 +68,7 @@ export const USER_CONFIG = {
       // 所在省份
       province: "贵州",
       // 所在城市
-      city: "黔南",
+      city: "贵阳",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
